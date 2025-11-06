@@ -16,7 +16,7 @@ export default async function handler(req, res) {
       throw new Error(`Discord error: ${response.status}`);
     }
 
-    res.status(200).json({ success: true, message: " „ «·≈—”«· »‰Ã«Õ ?" });
+    res.status(200).json({ success: true, message: "√ä√£ √á√°√Ö√ë√ì√á√° √à√§√å√á√ç ?" });
   } catch (error) {
     res.status(500).json({ success: false, error: error.message });
   }
